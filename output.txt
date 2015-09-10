@@ -1,0 +1,4 @@
+2015-09-10 20:16:35.477 FruitBasketIterator[763:21887] Apple : red apple
+2015-09-10 20:16:35.478 FruitBasketIterator[763:21887] Apple : green apple
+2015-09-10 20:16:35.478 FruitBasketIterator[763:21887] Orange : tasty orange
+Program ended with exit code: 0
