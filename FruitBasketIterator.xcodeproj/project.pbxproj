@@ -1,0 +1,269 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0C3C1F01BA1DEC3005BD991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1EF1BA1DEC3005BD991 /* main.m */; };
+		D0C3C1F81BA1DEF6005BD991 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1F71BA1DEF6005BD991 /* Fruit.m */; };
+		D0C3C1FB1BA1DFB7005BD991 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1FA1BA1DFB7005BD991 /* Apple.m */; };
+		D0C3C1FE1BA1DFCB005BD991 /* Orange.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1FD1BA1DFCB005BD991 /* Orange.m */; };
+		D0C3C2011BA1E258005BD991 /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C2001BA1E258005BD991 /* Basket.m */; };
+		D0C3C2071BA1E2F1005BD991 /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C2061BA1E2F1005BD991 /* Iterator.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		D0C3C1EA1BA1DEC3005BD991 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		D0C3C1EC1BA1DEC3005BD991 /* FruitBasketIterator */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = FruitBasketIterator; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0C3C1EF1BA1DEC3005BD991 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D0C3C1F61BA1DEF6005BD991 /* Fruit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Fruit.h; sourceTree = "<group>"; };
+		D0C3C1F71BA1DEF6005BD991 /* Fruit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Fruit.m; sourceTree = "<group>"; };
+		D0C3C1F91BA1DFB7005BD991 /* Apple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Apple.h; sourceTree = "<group>"; };
+		D0C3C1FA1BA1DFB7005BD991 /* Apple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Apple.m; sourceTree = "<group>"; };
+		D0C3C1FC1BA1DFCB005BD991 /* Orange.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Orange.h; sourceTree = "<group>"; };
+		D0C3C1FD1BA1DFCB005BD991 /* Orange.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Orange.m; sourceTree = "<group>"; };
+		D0C3C1FF1BA1E258005BD991 /* Basket.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Basket.h; sourceTree = "<group>"; };
+		D0C3C2001BA1E258005BD991 /* Basket.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Basket.m; sourceTree = "<group>"; };
+		D0C3C2051BA1E2F1005BD991 /* Iterator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Iterator.h; sourceTree = "<group>"; };
+		D0C3C2061BA1E2F1005BD991 /* Iterator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Iterator.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0C3C1E91BA1DEC3005BD991 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0C3C1E31BA1DEC3005BD991 = {
+			isa = PBXGroup;
+			children = (
+				D0C3C1EE1BA1DEC3005BD991 /* FruitBasketIterator */,
+				D0C3C1ED1BA1DEC3005BD991 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0C3C1ED1BA1DEC3005BD991 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0C3C1EC1BA1DEC3005BD991 /* FruitBasketIterator */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0C3C1EE1BA1DEC3005BD991 /* FruitBasketIterator */ = {
+			isa = PBXGroup;
+			children = (
+				D0C3C1EF1BA1DEC3005BD991 /* main.m */,
+				D0C3C1F61BA1DEF6005BD991 /* Fruit.h */,
+				D0C3C1F71BA1DEF6005BD991 /* Fruit.m */,
+				D0C3C1F91BA1DFB7005BD991 /* Apple.h */,
+				D0C3C1FA1BA1DFB7005BD991 /* Apple.m */,
+				D0C3C1FC1BA1DFCB005BD991 /* Orange.h */,
+				D0C3C1FD1BA1DFCB005BD991 /* Orange.m */,
+				D0C3C1FF1BA1E258005BD991 /* Basket.h */,
+				D0C3C2001BA1E258005BD991 /* Basket.m */,
+				D0C3C2051BA1E2F1005BD991 /* Iterator.h */,
+				D0C3C2061BA1E2F1005BD991 /* Iterator.m */,
+			);
+			path = FruitBasketIterator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0C3C1EB1BA1DEC3005BD991 /* FruitBasketIterator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0C3C1F31BA1DEC3005BD991 /* Build configuration list for PBXNativeTarget "FruitBasketIterator" */;
+			buildPhases = (
+				D0C3C1E81BA1DEC3005BD991 /* Sources */,
+				D0C3C1E91BA1DEC3005BD991 /* Frameworks */,
+				D0C3C1EA1BA1DEC3005BD991 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FruitBasketIterator;
+			productName = FruitBasketIterator;
+			productReference = D0C3C1EC1BA1DEC3005BD991 /* FruitBasketIterator */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0C3C1E41BA1DEC3005BD991 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = fpmi;
+				TargetAttributes = {
+					D0C3C1EB1BA1DEC3005BD991 = {
+						CreatedOnToolsVersion = 6.2;
+					};
+				};
+			};
+			buildConfigurationList = D0C3C1E71BA1DEC3005BD991 /* Build configuration list for PBXProject "FruitBasketIterator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D0C3C1E31BA1DEC3005BD991;
+			productRefGroup = D0C3C1ED1BA1DEC3005BD991 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0C3C1EB1BA1DEC3005BD991 /* FruitBasketIterator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0C3C1E81BA1DEC3005BD991 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0C3C2011BA1E258005BD991 /* Basket.m in Sources */,
+				D0C3C1FB1BA1DFB7005BD991 /* Apple.m in Sources */,
+				D0C3C1F81BA1DEF6005BD991 /* Fruit.m in Sources */,
+				D0C3C2071BA1E2F1005BD991 /* Iterator.m in Sources */,
+				D0C3C1F01BA1DEC3005BD991 /* main.m in Sources */,
+				D0C3C1FE1BA1DFCB005BD991 /* Orange.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		D0C3C1F11BA1DEC3005BD991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		D0C3C1F21BA1DEC3005BD991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		D0C3C1F41BA1DEC3005BD991 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0C3C1F51BA1DEC3005BD991 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0C3C1E71BA1DEC3005BD991 /* Build configuration list for PBXProject "FruitBasketIterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C3C1F11BA1DEC3005BD991 /* Debug */,
+				D0C3C1F21BA1DEC3005BD991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0C3C1F31BA1DEC3005BD991 /* Build configuration list for PBXNativeTarget "FruitBasketIterator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0C3C1F41BA1DEC3005BD991 /* Debug */,
+				D0C3C1F51BA1DEC3005BD991 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0C3C1E41BA1DEC3005BD991 /* Project object */;
+}
