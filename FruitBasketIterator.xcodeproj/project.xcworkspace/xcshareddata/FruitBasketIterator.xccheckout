@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>8618A6FF-90D4-4EF1-86AB-9D42CD71401E</string>
+	<key>IDESourceControlProjectName</key>
+	<string>FruitBasketIterator</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>1B4EB166B4D046A183C7687DFDB33AFEABC5227B</key>
+		<string>https://github.com/PavlovaMargarita/FruitBasketIterator.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>FruitBasketIterator.xcodeproj</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>1B4EB166B4D046A183C7687DFDB33AFEABC5227B</key>
+		<string>../..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://github.com/PavlovaMargarita/FruitBasketIterator.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>1B4EB166B4D046A183C7687DFDB33AFEABC5227B</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>1B4EB166B4D046A183C7687DFDB33AFEABC5227B</string>
+			<key>IDESourceControlWCCName</key>
+			<string>FruitBasketIterator</string>
+		</dict>
+	</array>
+</dict>
+</plist>
