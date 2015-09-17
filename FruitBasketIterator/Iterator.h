@@ -13,9 +13,9 @@
 
 @property NSMutableArray * fruitList;
 @property BOOL isFirst;
-@property NSUInteger  lastElementIndex;
-@property NSUInteger  index;
-@property NSUInteger  totalIterations;
+@property NSInteger  lastElementIndex;
+@property NSInteger  index;
+@property NSInteger  totalIterations;
 
 -(id) initWithParams : (NSMutableArray *) fruitListParam;
 

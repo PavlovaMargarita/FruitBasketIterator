@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D015DE8D1BAB200C0070EB4E /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1F71BA1DEF6005BD991 /* Fruit.m */; };
+		D015DE8E1BAB200C0070EB4E /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1FA1BA1DFB7005BD991 /* Apple.m */; };
+		D015DE8F1BAB200C0070EB4E /* Orange.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1FD1BA1DFCB005BD991 /* Orange.m */; };
+		D015DE901BAB200C0070EB4E /* Basket.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C2001BA1E258005BD991 /* Basket.m */; };
+		D015DE911BAB200C0070EB4E /* Iterator.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C2061BA1E2F1005BD991 /* Iterator.m */; };
 		D0C3C1F01BA1DEC3005BD991 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1EF1BA1DEC3005BD991 /* main.m */; };
 		D0C3C1F81BA1DEF6005BD991 /* Fruit.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1F71BA1DEF6005BD991 /* Fruit.m */; };
 		D0C3C1FB1BA1DFB7005BD991 /* Apple.m in Sources */ = {isa = PBXBuildFile; fileRef = D0C3C1FA1BA1DFB7005BD991 /* Apple.m */; };
@@ -217,6 +222,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D015DE8D1BAB200C0070EB4E /* Fruit.m in Sources */,
+				D015DE8E1BAB200C0070EB4E /* Apple.m in Sources */,
+				D015DE8F1BAB200C0070EB4E /* Orange.m in Sources */,
+				D015DE901BAB200C0070EB4E /* Basket.m in Sources */,
+				D015DE911BAB200C0070EB4E /* Iterator.m in Sources */,
 				D0C3C2151BA1F0B0005BD991 /* TestIterator.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -371,6 +381,7 @@
 				D0C3C1F51BA1DEC3005BD991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D0C3C2161BA1F0B0005BD991 /* Build configuration list for PBXNativeTarget "TestIterator" */ = {
 			isa = XCConfigurationList;
@@ -379,6 +390,7 @@
 				D0C3C2181BA1F0B0005BD991 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

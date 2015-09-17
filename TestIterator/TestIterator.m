@@ -8,6 +8,9 @@
 
 #import <Cocoa/Cocoa.h>
 #import <XCTest/XCTest.h>
+#import "Basket.h"
+#import "Iterator.h"
+#import "Apple.h"
 
 @interface TestIterator : XCTestCase
 
@@ -25,9 +28,11 @@
     [super tearDown];
 }
 
-- (void)testExample {
-    // This is an example of a functional test case.
-    XCTAssert(YES, @"Pass");
+- (void)testZeroFruits {    
+    Basket * basket = [[Basket alloc] init];
+    Iterator * iterator = [basket getIterator];
+    BOOL hasNext = [iterator hasNext];
+    XCTAssertFalse(hasNext);
 }
 
 - (void)testPerformanceExample {
